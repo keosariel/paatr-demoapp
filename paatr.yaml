@@ -1,0 +1,5 @@
+runtime: python3.9
+run:
+  - PYTHONPATH=/usr/bin/python pip install -r requirements.txt
+start: gunicorn -b 0.0.0.0:5000 -w 2 "app:app"
+port: 5000
