@@ -1,3 +1,2 @@
 runtime: python3.9
 start: gunicorn -b 127.0.0.1:5000 -w 2 "app:app"
-port: 5000
