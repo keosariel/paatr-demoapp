@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, new World!'
+    return 'Hello, World! PAATR!'
 
 @app.route('/error')
 def error():
